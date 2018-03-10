@@ -44,3 +44,43 @@
 .center{
 	max-width: 75%;
 }
+p {color: blue;
+    text-align: center;
+    font-family: Comic Sans ms;
+    font-size: 15px;
+}
+head 
+#customers {
+    font-family: "Comic Sans ms", 
+    Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%; color: black; 
+    text-align: justify;
+}
+
+#customers td, #customers th {
+    border: 5px solid #ddd;
+    padding: 10px;
+}
+
+#customers tr:nth-child(even)
+{background-color: yellow;}
+
+#customers tr:hover 
+{background-color: blue;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+}
+h3 {color: green;
+    text-align: center;
+    font-family: Comic Sans ms;
+    font-size: 25px;}
+    h1 {color: red;
+    text-align: center;
+    font-family: Comic Sans ms;
+    font-size: 40px;}
