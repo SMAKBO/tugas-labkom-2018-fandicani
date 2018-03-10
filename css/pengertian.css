@@ -45,7 +45,7 @@
 	max-width: 75%;
 }
 p {color: blue;
-    text-align: center;
+    text-align: justify;
     font-family: Comic Sans ms;
     font-size: 15px;
 }
@@ -84,3 +84,8 @@ h3 {color: green;
     text-align: center;
     font-family: Comic Sans ms;
     font-size: 40px;}
+
+    .find{
+	text-align: center;background-color:
+	rgb(106, 90, 205);color: yellow
+}
