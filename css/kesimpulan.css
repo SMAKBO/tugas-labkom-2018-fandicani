@@ -1,0 +1,16 @@
+.image{
+	width: 1px;
+	height: 1px;
+	margin-right:200px;
+}
+.bgrnd{
+	background-color: white;
+}
+
+.page{
+	font-weight: 100px;
+}
+
+.center{
+	max-width: 75%;
+}
