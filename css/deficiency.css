@@ -1,0 +1,30 @@
+
+.image{
+	width: 1px;
+	height: 1px;
+	margin-right:200px;
+}
+
+.bgrnd{
+	border-left: 6px solid #0D3D9E;
+	margin: 25px 50px 75px;
+	background-color: white;
+	padding: 0px 25px 25px 25px;
+}
+
+.page{
+	font-weight: 100px;
+}
+
+.center{
+	max-width: 79%;
+}
+
+.ol{list-style-type: lower-hexadecimal;
+}
+
+.h1{
+	background-color: lightblue;
+	text-align: center;
+	font-family: times new roman;
+}
