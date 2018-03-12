@@ -1,0 +1,35 @@
+
+.image{
+	width: 1px;
+	height: 1px;
+	margin-right:200px;
+}
+
+.bgrnd{
+	border: 6px solid white;
+
+	margin: 25px 50px 75px;
+	background-color: tomato;
+	
+}
+
+.page{
+	font-weight: 100px;
+}
+
+.center{
+	max-width: 75%;
+}
+
+.ol{list-style-type: lower-hexadecimal;
+}
+
+.h1{
+	background-color: lightblue;
+	text-align: center;
+	font-family: times new roman;
+}
+.one{
+    margin-left: 20px;
+    margin-right: 20px;
+}
