@@ -17,8 +17,7 @@
 }
 .center{
 	text-align: center;
-	background-color: lightblue;
-	color:white;
+	color:black;
 
 }
 .ambigu{
@@ -62,4 +61,10 @@
 .bla{
 	color: white;
 
+}
+.bg{
+	background-color: lightblue;
+	margin-right: 75px;
+	margin-left: 75px;
+	border: 9px solid white;
 }
