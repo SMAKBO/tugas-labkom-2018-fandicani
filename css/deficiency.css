@@ -6,10 +6,11 @@
 }
 
 .bgrnd{
-	border-left: 6px solid #0D3D9E;
+	border: 6px solid white;
+
 	margin: 25px 50px 75px;
-	background-color: white;
-	padding: 0px 25px 25px 25px;
+	background-color: tomato;
+	
 }
 
 .page{
@@ -17,7 +18,7 @@
 }
 
 .center{
-	max-width: 79%;
+	max-width: 75%;
 }
 
 .ol{list-style-type: lower-hexadecimal;
@@ -27,4 +28,8 @@
 	background-color: lightblue;
 	text-align: center;
 	font-family: times new roman;
+}
+.one{
+    margin-left: 20px;
+    margin-right: 20px;
 }

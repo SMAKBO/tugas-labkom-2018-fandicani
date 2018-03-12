@@ -2,8 +2,9 @@
 
 
 .atas{
-	color:white;
+	color:;
 	text-align:center;
+	height:40px;
 }
 
 .programer{
@@ -16,7 +17,9 @@
 }
 .center{
 	text-align: center;
+	background-color: lightblue;
 	color:white;
+
 }
 .ambigu{
 	background-color:hsl(0, 40%, 50%);

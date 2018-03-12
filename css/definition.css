@@ -1,5 +1,5 @@
 .width {
-	width: 1263px; 
+	width: 100%; 
 	height:100px;
 }
 .center{
@@ -7,16 +7,17 @@
 }
 
 .bgrnd{
-	background-color: white;
+	background-color: tomato;
 	width:980px;
+    border: 9px solid white;
 }
 h1 {
 	background-color:lightblue;
 	font-family:comic sans ms;
-	text-align: center;color: red;
+	text-align: center;color: black;
     font-size: 40px;
 }
-p {color: blue;
+p {color: black;
     text-align: justify;
     font-family: Comic Sans ms;
     font-size: 15px;
@@ -56,7 +57,7 @@ table {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: justify;
-    background-color: white;
+    background-color: tomato;
     color: black;
 }
 .margin-left {
@@ -70,3 +71,15 @@ table {
 
 
 
+.one{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.kaki{
+    background-color:powderblue;
+    text-align: center;
+    margin-right:335px 
+
+}
