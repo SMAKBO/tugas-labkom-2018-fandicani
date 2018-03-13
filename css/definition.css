@@ -11,16 +11,22 @@
 	width:980px;
     border: 9px solid white;
 }
+
+
 h1 {
 	background-color:lightblue;
 	font-family:comic sans ms;
 	text-align: center;color: black;
     font-size: 40px;
 }
+
+.one{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
 p {
     text-align: justify;
-    font-family: Comic Sans ms;
-    font-size: 15px;
 }
 .imreti {
 	margin-left: 300px
@@ -69,14 +75,6 @@ table {
 	margin-right:200px;
 }
 
-
-
-.one{
-    margin-left: 20px;
-    margin-right: 20px;
-    color: white;
-
-}
 
 .kaki{
     background-color:powderblue;
