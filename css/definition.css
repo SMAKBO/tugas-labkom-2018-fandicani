@@ -32,10 +32,10 @@ p {
 	margin-left: 300px
 }
 h3 {
-	color: green;
+	color: yellow;
     text-align: center;
     font-family: Comic Sans ms;
-    font-size: 25px;
+    font-size: 45px;
 }
 table {
 	margin-left: 65px
@@ -44,13 +44,13 @@ table {
     font-family: "Comic Sans ms", 
     Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%; color: black; 
+    width: 100%; color: white; 
     text-align: justify; 
 }
 
 #customers td, #customers th {
     border: 5px solid #ddd;
-    padding: 10px;
+    padding: 10px; color:;
 }
 
 #customers tr:nth-child(even)
