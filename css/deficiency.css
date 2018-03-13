@@ -1,16 +1,17 @@
 
 .image{
-	width: 1px;
+	width: auto;
 	height: 1px;
 	margin-right:200px;
 }
 
 .bgrnd{
-	border: 6px solid white;
-
-	margin: 25px 50px 75px;
 	background-color: tomato;
-	
+	width:980px;
+	border: 9px solid white;
+	padding-left: 25px;
+	margin-right: 40px;
+
 }
 
 .page{
@@ -18,18 +19,37 @@
 }
 
 .center{
-	max-width: 75%;
+	max-width: 79%;
 }
 
 .ol{list-style-type: lower-hexadecimal;
+	color:white;
 }
 
 .h1{
 	background-color: lightblue;
 	text-align: center;
-	font-family: times new roman;
+	font-family: comic sans ms;
 }
-.one{
-    margin-left: 20px;
-    margin-right: 20px;
+
+
+.one{color:white;
+	margin-right: 20px;
+}
+
+.pict{
+	width: 100%;
+}
+
+.h3{
+	font-family: comic sans ms;
+	font-size: 30px
+}
+
+.footer{
+	background-color: #C6CCD3;
+	font-family: times new roman;
+	width: auto;
+	height: 50px;
+	text-align: center;
 }
