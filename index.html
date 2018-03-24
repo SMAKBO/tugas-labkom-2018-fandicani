@@ -3,132 +3,187 @@
 <head>
 	<title>Retinal</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
 </head>
 
-<body class="bala" >
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark " >
-  <a class="navbar-brand" href="index.html">Home</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link active" href="about.html">About Us</a>
-      </li>
-</nav>
+
+<body style="background-image:url(img/latar.jpg)" >
+
+
+
+
+
 
 
 
 <center>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item-active">
-      <img class="d-block w-100" src="img/baner.png" alt="First slide">
-      <div class="container">
-              <div class="carousel-caption text-left">
-                <div class="foto" > 
-                  </div>
-                </div>
-              </div>
+
+
+<div class="container" >
+<div class="row" >	
+<div class="bg" >	
+<div class="col-md-9" >
+<div  id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div  class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/pengertian1.png" alt="First slide">
+      <div class="carousel-caption d-none d-md-block text-dark">
+  </div>
     </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/pengertian1.png" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block text-dark">
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/pengertian1.png" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block text-dark">
+  </div>
     </div>
   </div>
-<div class="bg-dark" >
-  <h2 class="a"> All about Retinal</h2>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
+<ul class="nav justify-content-center nav-tabs- bg-dark" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><img style="width:auto;height:30px;"  src="img/pengertian1.png"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+  </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img style="width:auto;height:30px;" src="img/pengertian1.png"></a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="about.html">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="about.html">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+
+</ul>
 
 
-<div class="container marketing">
+	<h1 class="image" ><img width="200" height="200" class="float-left" src="img/relax.png"></h1>
+	<br><br><br><br><br><br><br>
+
+	<div class="border1" >
+		<div class="row featurette">
+          <div class="col-md-8">
+          	
+          	<div><br><br>	
+            <h2  class="featurette-heading">Retinal</h2>
+            <p  class="lead">Retinal is also know as retinaldehyde. it was originally called retinene,and rename after it was discovered to be a vitamin A</p>
+            </div>
+            </div>
+
+          	<div class="col-md-4">
+         
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/200x200/auto" alt="200x200" style="width: 250px; height: 320px;" src="img/relax.png" data-holder-rendered="true">
+         </div>
+       	</div>
+       	</div>
+
+<br>
+<h2> Retinal </h2>
+<video class="vidio" width="550" height="430" controls >
+  <source src="img/a.mp4" type="video/mp4">
+</video>
+
+
+
+<div class="container">
+	<hr class="featurette-devider" >
+        <div class="round" >
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded" src="img/wald.jpg" width="200" height="200">
+            <img class="rounded-circle" src="img/relax.png" width="200" height="200">
             <h2>History of Retinal</h2>
-            <p>When Retinal is found? By Who? What actually they do until they found Retinal? This is the brief history of Retinal with some relevants figure behind it!</p>
-            <p class="read" ><a class="btn btn-danger" href="history.html" role="button" >Read More</a></p>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p class="read" ><a class="btn btn-dark" href="saddam.html" role="button" >Read More</a></p>
           </div>
+          
           <div class="col-lg-4">
-            <img class="rounded" src="img/Retinal_3D_ball.png" width="200" height="200">
-            <h2>Definition of Retinal</h2>
-            <p>Do you ever heard "Retinal" before? Do you know anything about Retinal? What is Retinal? Do you know the molecule structure of it? Well, let's check it out! </p>
-            <p class="read" ><a class="btn btn-danger" href="definition.html" >Read More</a></p>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded" src="img/vitaminA.gif" width="200" height="200">
-            <h2>Source of Retinal</h2>
-            <p>Where do we can meet Retinal? Are actually they've been around us all the time? This page gives you information about the source of Retinal.</p>
-            <p class="read" ><a class="btn btn-danger" href="sumberVitA.html" >Read More</a></p>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded" src="img/Manfaat2.jpg" width="200" height="200">
+            <img class="rounded-circle" src="img/relax.png" width="200" height="200">
             <h2>Benefits of Retinal</h2>
-            <p>People say, "Money will give you the true benefits of life." Well, not just money who gives benefits to us. Here are some benefits of Retinal that we can take!</p>
-            <p class="read" ><a class="btn btn-danger" href="benefits.html" >Read More</a></p>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum </p>
+            <p class="read" ><a class="btn btn-dark" href="manfaat.html" >Read More</a></p>
           </div>
           	
+          
           <div class="col-lg-4">
-            <img class="rounded" src="img/dld.jpg" width="200" height="200">
-            <h2>Side Effects</h2>
-            <p>Sounds scarry to heard "Side Effects" about anything. Do you know the side effects of vitamin A? This is the side effects of Vitamin A that you probably don't know, if you take it too much.</p>
-            <p class="read" ><a class="btn btn-danger" href="Efek_samping.html" role="button" >Read More</a></p>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded" src="img/mata.jpg" width="200" height="200">
-            <h2>Vitamin A Deficiency</h2>
-            <p>Did you ever feel hard to see things in the night? Well, watch out then! Probably you lack of Vitamin A in your body. Want to know more about the deficiency of Vitamin A?</p>
-            <p class="read" ><a class="btn btn-danger" href="kekurangan.html" role="button"  >Read More</a></p>
+            <img class="rounded-circle" src="img/relax.png" width="200" height="200">
+            <h2>Vitamin A</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus,as mattis consectetur purus sit amet fermentum. Fusce </p>
+            <p class="read" ><a class="btn btn-dark" href="kekurangan.html" role="button"  >Read More</a></p>
 
           </div>
 
+</div>
+</div>
+<hr class="featurette-devider" >	
+<h3>Retynaldehyde</h3>
+<div class="gallery-margin" >
+<div class="gallery">
+  <a target="_blank" href="img/logo.png">
+    <img src="img/logo.png" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
-	
-           <div class="col-lg-6">
-            <img class="rounded" src="img/vita.jpg" width="200" height="200">
-            <h2>How Retinal work</h2>
-            <p>Somehow, somewhere, Retinal is working in our body so we can be healthy and read this website. Do you know about how Retinal work? Let's check it out!</p>
-            <p class="read" ><a class="btn btn-danger" href="carakerja.html" role="button"  >Read More</a></p>
- </div>
- <div class="col-lg-6">
-            <img class="rounded" src="img/conclusion.JPG" width="200px" height="200px">
-            <h2>Conclusion</h2>
-            <p>This is the final page. This page is contain all the important things about Retinal (also the Vitamin A) from the previous pages. You may get sorry if you miss it!</p>
-            <p class="read" ><a class="btn btn-danger" href="conclusion.html" role="button"  >Read More</a></p>
-          </div>
-        </div>
+<div class="gallery">
+  <a target="_blank" href="image/logo.png">
+    <img src="img/logo.png" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<footer class="container">
-	<div class="float-right" ><a href="index.html#">
-        <button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-  Back
-</button></a></div> 
-        <p class="index" >Created By Fajar Danu & Hizkia Edd</p>
-      </footer>
+<div class="gallery">
+  <a target="_blank" href="image/logo.png">
+    <img src="img/logo.png" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+</div>
+</div>
 
 
 
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
+</center>
+
+
+
 </body>
 </html>
