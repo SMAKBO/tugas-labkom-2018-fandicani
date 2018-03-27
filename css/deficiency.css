@@ -1,55 +1,90 @@
-
-.image{
-	width: auto;
-	height: 1px;
-	margin-right:200px;
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+a {
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
 }
 
-.bgrnd{
-	background-color: tomato;
-	width:980px;
-	border: 9px solid white;
-	padding-left: 25px;
-	margin-right: 40px;
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+}
+.header h1 {
+    font-size: 50px;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;    
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    float:left;
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.container{
+    max-width: 30%;
 
 }
 
-.page{
-	font-weight: 100px;
+
+.navbar-margin{
+    margin-left: 180px;
+
 }
 
-.center{
-	max-width: 79%;
-}
-
-.ol{list-style-type: lower-hexadecimal;
-	color:white;
-}
-
-.h1{
-	background-color: lightblue;
-	text-align: center;
-	font-family: comic sans ms;
-}
-
-
-.one{color:white;
-	margin-right: 20px;
-}
-
-.pict{
-	width: 100%;
-}
-
-.h3{
-	font-family: comic sans ms;
-	font-size: 30px
-}
-
-.footer{
-	background-color: #C6CCD3;
-	font-family: times new roman;
-	width: auto;
-	height: 50px;
-	text-align: center;
-}
