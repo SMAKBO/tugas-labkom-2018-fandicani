@@ -47,6 +47,8 @@ a {
     background-color: white;
     padding: 20px;
     margin: 20px;
+    width: auto;
+    height: 20%;
 }
 
 /* Clear floats after the columns */
