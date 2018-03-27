@@ -1,4 +1,4 @@
-body{f
+body{
 	text-align:center;
 	font size:18px;
 }
@@ -11,9 +11,12 @@ h1{
 }
 
 .bg {
-	 background-color:#FFF8DC;
+	 background-color:white;
 	 margin-right: 75px;
 	 margin-left: 75px;
+	 border-right:3px solid #a29f9d;
+	 border-left:3px solid #a29f9d;
+	 border-bottom: 3px solid #a29f9d;
 
 	 
 }
@@ -25,10 +28,11 @@ h1{
 	margin-left:170px;
 }
 .image{
-	
+	margin-left:10px;
 }
 .container{
-	max-width: 80%;
+	max-width: 95%;
+
 }
 
 .border1{
@@ -41,9 +45,10 @@ h1{
 
 a {
     color: black;
-    padding: 15px 30px;
+    padding: 10px 25px;
     text-align: center;
     display: inline-block;
+    text-decoration: none;
 }
 .card-body{
 	background-color: black
@@ -74,13 +79,31 @@ a {
 .featurette-devider{
 	margin-top: 100px;
 	margin-bottom: 100px;
+	width:400px;
+	height: 400px;
 }
 
-.float-left{
-	margin-left:10px;
-
+.gallery-margin{
+	margin-left: 90px;
+	margin-top: 100px;
 }
 
-.imageborder{
-	border:5px solid lightblue;
+div.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: auto;
+    text-align: center;
 }
