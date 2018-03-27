@@ -37,13 +37,6 @@ a {
     padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-    float:left;
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
@@ -75,16 +68,17 @@ table {
 }
 
 #customers tr:nth-child(even)
-{background-color: yellow;}
+{background-color: black;
+color:white;}
 
 #customers tr:hover 
-{background-color: lightblue;}
+{background-color: grey;}
 
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: justify;
-    background-color: tomato;
+    background-color: white;
     color: black;
 }
 .footer {
