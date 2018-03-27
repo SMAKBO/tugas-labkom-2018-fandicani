@@ -53,36 +53,7 @@ height: 100%;}
     display: table;
     clear: both;
 }
-table {
-    margin-left: 65px
-}
-.customers {
-    font-family: "Comic Sans ms", 
-    Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%; color: white; 
-    text-align: justify; 
-}
 
-#customers td, #customers th {
-    border: 5px solid #ddd;
-    padding: 10px; color:;
-}
-
-#customers tr:nth-child(even)
-{background-color: black;
-color:white;}
-
-#customers tr:hover 
-{background-color: grey;}
-
-#customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: justify;
-    background-color: white;
-    color: black;
-}
 .footer {
     padding: 20px;
     text-align: center;
